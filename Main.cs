@@ -13,15 +13,12 @@ namespace lab_0
             Console.WriteLine("Введите коэффициент a ");
             double cofA = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Введите коэффициент b ");
-            double cofB = Convert.ToDouble(Console.ReadLine());
-
             Console.WriteLine("Введите координату x для точки О1 ");
             double coordX1 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите координату y для точки О1");
             double coordY1 = Convert.ToDouble(Console.ReadLine());
 
-            double testcoord;
+            double cofB = coordY1 - cofA * coordX1;
 
             Console.WriteLine("Введите координату x для точки О2 ");
             double coordX2 = Convert.ToDouble(Console.ReadLine());
